@@ -609,18 +609,17 @@ PRICING
 }
 
 .plan {
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0 32px;
+    text-align: center;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 0.5rem;
+    position: relative;
     width: calc(100%/3);
+    max-width: 384px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 8px 32px 0 32px;
-    position: relative;
-    border-radius: 0.5rem;
-    margin: 64px 32px 0 0;
-    max-width: 352x;
-    border: 1px solid rgb(226, 232, 240);
-
 }
 
 .plan__highlight {
@@ -639,13 +638,12 @@ PRICING
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.plan__personal--name {
+.plan__name {
     font-size: 20px;
     font-weight: 700;
-    color: #1a202c;
+    line-height: 1.625;
 }
 
 .plan__personal--price {
@@ -662,12 +660,12 @@ PRICING
 }
 
 .personal__features {
-    padding: 32px;
-    border: 1px solid rgb(226, 232, 240);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 320px;
+    margin: 0 -32px;
+    padding: 32px;
+    border: 1px solid rgb(226, 232, 240);
 }
 
 
